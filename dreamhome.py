@@ -16,8 +16,6 @@ screen.bgcolor("#BFEFFF")
 # Draw square or rectangle
 
 # Hàm đặt vị trí con trỏ
-
-
 def setPosition(longPos, latPos):
     penDraw.up()
     penDraw.goto(longPos, latPos)
